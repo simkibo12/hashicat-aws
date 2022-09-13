@@ -1,4 +1,4 @@
-module "s3-bucket" {
-  source  = "https://github.com/simkibo12/terraform-aws-s3-bucket"
+module "s3-bucket_example_complete" {
+  source  = "app.terraform.io/kibosim/s3-bucket/aws//examples/complete"
   version = "2.8.0"
 }
