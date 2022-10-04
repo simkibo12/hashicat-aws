@@ -2,11 +2,19 @@ terraform {
   required_providers {
     aws = {
       source  = "hashicorp/aws"
+<<<<<<< HEAD
       version = "=3.42.0"
+=======
+      version = "=3.36.0"
+>>>>>>> 0fe71d513c310692ac88eb2476adca7b7f9718b9
     }
   }
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 0fe71d513c310692ac88eb2476adca7b7f9718b9
 provider "aws" {
   region  = var.region
 }
@@ -128,6 +136,11 @@ resource "aws_instance" "hashicat" {
 
   tags = {
     Name = "${var.prefix}-hashicat-instance"
+<<<<<<< HEAD
+=======
+    Department = "devops"
+    Billable = "true"
+>>>>>>> 0fe71d513c310692ac88eb2476adca7b7f9718b9
   }
 }
 

@@ -48,6 +48,7 @@ variable "placeholder" {
   default     = "placekitten.com"
   description = "Image-as-a-service URL. Some other fun ones to try are fillmurray.com, placecage.com, placebeard.it, loremflickr.com, baconmockup.com, placeimg.com, placebear.com, placeskull.com, stevensegallery.com, placedog.net"
 }
+<<<<<<< HEAD
 
 variable "AWS_ACCESS_KEY_ID" {
   default = "AKIASF4P4POOUA4OEO4J"
@@ -55,3 +56,5 @@ variable "AWS_ACCESS_KEY_ID" {
 variable "AWS_SECRET_ACCESS_KEY" {
   default = "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"
 }
+=======
+>>>>>>> 0fe71d513c310692ac88eb2476adca7b7f9718b9

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 terraform {
   backend "remote" {
     hostname = "app.terraform.io"
@@ -7,3 +8,14 @@ terraform {
     }
   }
 }
+=======
+terraform {
+  backend "remote" {
+    hostname = "app.terraform.io"
+    organization = "kibosim"
+    workspaces {
+      name = "hashicat-aws"
+    }
+  }
+}
+>>>>>>> 0fe71d513c310692ac88eb2476adca7b7f9718b9
